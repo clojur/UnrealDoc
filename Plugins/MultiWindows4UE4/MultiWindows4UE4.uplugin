@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.5",
+	"FriendlyName": "MultiWindows4UE4",
+	"Description": "One GameInstance: Multi Windows x Multi Views (Multi Monitors Support). Just use the Blueprints.",
+	"Category": "MultiWindows",
+	"CreatedBy": "YeHaike",
+	"CreatedByURL": "https://gitlab.com/UE4MarketplaceSubmission_Public/multiwindows4ue4_public",
+	"DocsURL": "https://gitlab.com/UE4MarketplaceSubmission_Public/multiwindows4ue4_public",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/8cff7837a1214799ba4c628949c51dcb",
+	"SupportURL": "https://gitlab.com/UE4MarketplaceSubmission_Public/multiwindows4ue4_public",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "MultiWindows4UE4",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Mac",
+				"Linux",
+				"Win64",
+				"Win32"
+			]
+		},
+		{
+			"Name": "MultiWindows4UE4Editor",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Mac",
+				"Linux",
+				"Win64",
+				"Win32"
+			]
+		}
+	]
+}
